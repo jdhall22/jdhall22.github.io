@@ -347,3 +347,47 @@
   [hidden] {
     display: none;
   }
+
+  /**
+  * Custom CSS
+  */
+
+  body { 
+    font-size: 16px; 
+    line-height: 32px;
+    font-family: Georgia, Serif;
+    color: #212121;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #FFFFFF;
+}
+
+h2 {
+    font-size: 2rem;
+    text-align: center;
+    border-bottom: 1px solid #bbb;
+}
+
+header, main, footer {
+    margin: 1.25rem auto;
+    padding: .5rem;
+    max-width: 1080px;
+}
+
+header, footer, footer a {
+    text-align: center;
+    background-color: #303F9F;
+    color: whitesmoke;
+}
+
+header img {
+    width: 200px;
+    height: auto;
+    float: right;
+}
+
+footer {
+    font-size: .5rem;
+}
