@@ -3,6 +3,17 @@
   --heading-font: 'Roboto Slab', serif;
   --paragraph-font: 'Roboto', sans-serif;
 }
+#content {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+nav ul {
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(15em, 1fr)); 
+  margin: 0;
+}
 
 h1, h2, h3, h4, h5, h6 {
   font-family: var(--heading-font);
