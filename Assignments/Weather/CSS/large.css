@@ -15,18 +15,21 @@ img {
 */
 
 header {
-    display:flex;
+    display: grid;
+    grid-template-columns: 25% 75%;
     padding: 4px;
     background-color: #85C7DE;
+    align-items: center;
   }
 
-.logo {  
-    float: left; 
+.logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;   
 }
 
 .heading {
-    display: flex;
-    flex-direction: column;
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
 }
 
 
@@ -103,12 +106,7 @@ body {
 
 
 h1 {
-  
   font-family: 'Roboto Slab', serif;
-  padding: 1em;
-  line-height: 1.5;
-  border-top: 10px;
-  border-bottom: 10px;
 }
 
 h3, h5, h6 {
