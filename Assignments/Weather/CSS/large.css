@@ -36,17 +36,21 @@
     }
     .preston-section-1 {
         width: 40%;
-        max-width: 375px;
+        max-width: 350px;
         text-align: center;
         background-color: #A0C4E2;
         border: 1px solid black;
         position: absolute;
-        top: 375px;
+        top: 370px;
         margin-left: 40px;
     }
 
     .preston-section-2 {
         margin-top: 50px;
+        display: block;
+        max-width: 75%;
+        margin-left: 10%;
+        text-align: center;
     }
 
     /**Contact Us box*/ 

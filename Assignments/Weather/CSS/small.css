@@ -110,7 +110,7 @@ h1 {
 h3, h5, h6 {
     
     font-family: 'Roboto Slab', serif;
-    padding: 1em;
+    
     line-height: 1.5;
 }  
 
@@ -175,6 +175,7 @@ main {
     grid-row: 1 / 2;
     width: 75%;
     align-items: center;
+    display: none;
 }
 
 .preston-section-3 {
