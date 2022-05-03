@@ -27,7 +27,7 @@
         width: 40%;
         max-width: 340px;
         text-align: center;
-        background-color: #A0C4E2;
+        background-color: rgba(160, 196, 226, 0.6);
         border: 1px solid black;
         position: absolute;
         top: 375px;
@@ -38,7 +38,7 @@
         margin-top: 80px;
         display: block;
         max-width: 75%;
-        margin-left: 10%;
+        margin-left: 12%;
         text-align: center;
     }
 
