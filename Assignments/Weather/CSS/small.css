@@ -38,7 +38,6 @@ header {
 */
 
 nav {
-    margin: auto;
     background-color: #85C7DE;
 }    
 
@@ -147,32 +146,35 @@ main {
 *Preston Grid
 */
 
+.preston-current-weather {
+
+}
+
+.preston-banner {
+    
+    
+}
+.preston-section-1 {
+  
+  border: 1px dashed black;
+}
+
 .preston-grid {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
   grid-gap: 1em;
 }
 
-.preston-banner {
-    grid-column: 1 / 6;
-    grid-row: 1 / 2;
-    
-}
-.preston-section-1 {
-  grid-column: 1 / 6;
-  grid-row: 2 / 3;
-  border: 1px dashed black;
-}
 
 .preston-section-2 {
-  grid-column: 1 / 6;
-  grid-row: 3 / 4;
+    grid-column: 1 / 6;
+    grid-row: 1 / 2;
   border: 1px dashed black;
 }
 
 .preston-section-3 {
-  grid-column: 1 / 6;
-  grid-row: 4 / 5;
+    grid-column: 1 / 6;
+    grid-row: 2 / 3;
   border: 1px dashed black;
 }
 
@@ -209,3 +211,8 @@ footer {
     text-align: center;
     background-color: #85C7DE;
 }
+
+/* Solid border */
+hr.solid {
+    border-top: 2px solid #bbb;
+  }
