@@ -13,6 +13,31 @@
         flex: 1 1 100%;
     }
 
+    .preston-current-weather {
+        max-width: 1000px;
+    
+    }
+    
+    .preston-banner {
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .preston-section-1 {
+        width: 40%;
+        max-width: 375px;
+        text-align: center;
+        background-color: #A0C4E2;
+        border: 1px solid black;
+        position: absolute;
+        top: 375px;
+        margin-left: 40px;
+    }
+
+    .preston-section-2 {
+        margin-top: 90px;
+    }
+
     .contact-info-grid {
         display: grid;
         margin: 10px auto;
