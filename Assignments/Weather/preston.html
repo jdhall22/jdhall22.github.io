@@ -15,6 +15,8 @@
         <body>
           <div id="content">
             
+            <p id="fridayBanner" style="display: none;">Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion.</p>
+
             <header>
                 <div class="heading">
                     <h1>Idaho Storm Watch</h1>
@@ -71,18 +73,19 @@
                         <div class="preston-section-2">
                             <h3>Five Day Forcast</h3>
                             <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-font="Roboto" data-icons="Climacons Animated" data-mode="Forecast" data-days="5" data-theme="original" >Preston, ID, USA</a>
-<script>
-!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
-</script>
-                                
+                            <script>
+                                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                            </script> 
                         </div>
 
                         <div class="preston-section-3">
-                            <h3>Article Title</h3>
-                            <p>Lorem ipsum dolor sit amet,
-                                 consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                                  labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud</p>
-          
+                            <h3>Snowpack Levels in Idaho Increase</h3>
+                            <img src="https://jdhall22.github.io/images/preston-article.jpg" alt="snow in mountains of Idaho" height="300"/>
+                            <p>I was doing my morning reading and came across a great bit of news for our city!<br>
+                            It looks like the snowpack level in the mountians is going to be getting a "big boost". 
+                            Acording to Idaho News, our snowpack levels jumped from around 65 percent to "over 100 percent" in certain areas.
+                            I recommend reading the full article to get more information.<br><br></p>
+                            <a href="https://idahonews.com/weather/adventure-starts-with-weather/snowpack-levels-jumped-in-april" target="_blank">Read The Full Article</a>
                             </div>
 
                     </div>
@@ -118,7 +121,8 @@
 
                 <footer>
                   <div class="footer-text">
-                    <p>&copy;2022 &star; Justin D. Hall &star; Texas &star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a><br>
+                    <p>&copy;2022 &star; Justin D. Hall &star; Texas &star; <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a><br><br>
+                        The Current Date is: <span is="currentDate"></span><br><br>
                         Last Updated: <span id="updatedDate"></span> </p>
                   </div>
                   
