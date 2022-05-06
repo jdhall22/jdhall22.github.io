@@ -53,6 +53,10 @@
         text-align: center;
     }
 
+    .preston-section-3 img{
+        float: right;
+    }
+
     /**Contact Us box*/ 
 
     .contact-info-grid {
