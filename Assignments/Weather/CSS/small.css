@@ -207,6 +207,7 @@ main {
     grid-column: 1 / 6;
     grid-row: 2 / 3;
    border-bottom: 60px solid #85C7DE;
+   border-top: 60px solid #85C7DE;
 }
 
 .preston-section-3 img {
