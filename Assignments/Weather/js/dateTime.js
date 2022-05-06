@@ -1,4 +1,4 @@
-document
+
 
 /**display last update time */
 const updatedDate = document.querySelector('#updatedDate')
@@ -40,7 +40,11 @@ function toggleMenu() {
 
 /**Windchill */
 
-function buildWC (windSpeed, currentTemp) {
+
+function buildWC () {
+    var currentTemp = 49;
+    var windSpeed = 8;
+    
     let feelTemp = document.getElementById('feelTemp');
 
         let wc = 35.74 + 0.6215 * currentTemp - 35.75 * Math.pow(windSpeed, 0.16) + 0.4275 * currentTemp * Math.pow(windSpeed, 0.16);
@@ -53,4 +57,7 @@ function buildWC (windSpeed, currentTemp) {
         console.log(wc);
 
         feelTemp.innerHTML = wc;
+
+        document.querySelector('buildWC').textContent = feelTemp;
 }
+
