@@ -257,3 +257,53 @@ footer {
 hr.solid {
     border-top: 2px solid #bbb;
   }
+  
+  
+  /** Gallery Grid*/
+  
+  .gallery-grid {
+	  display: grid;
+	  
+  }
+  
+  .gallery-section-1 {
+	  margin: 10px;
+  }
+
+  .gallery-section-1 img:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  .gallery-section-1 img {
+    display: block;  
+    width: 100%;
+  height: auto;
+  }
+  
+  .gallery-section-2 {
+	  margin: 10px;
+  }
+
+  .gallery-section-2 img:hover {
+    box-shadow: 0 0 50px #333;
+  }
+  
+  .gallery-section-2 img {
+    display: block;  
+    width: 100%;
+  height: auto;
+  }
+
+  .gallery-section-3 {
+	  margin: 10px;
+  }
+
+  .gallery-section-3 img:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  .gallery-section-3 img {
+    display: block;  
+    width: 100%;
+  height: auto;
+  }
