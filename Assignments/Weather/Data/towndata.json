@@ -2,7 +2,7 @@
     "towns": [
       {
         "name": "Soda Springs",
-        "photo": "sodasprings.jpg",
+        "photo": "https://jdhall22.github.io/images/soda-farm.jpg",
         "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
         "yearFounded": 1858,
         "currentPopulation": 2985,
@@ -16,7 +16,7 @@
       
       {
         "name": "Fish Haven",
-        "photo": "fishhaven.jpg",
+        "photo": "https://jdhall22.github.io/images/fish-farm.jpg",
         "motto": "This is Fish Heaven.",
         "yearFounded": 1864,
         "currentPopulation": 501,
@@ -32,7 +32,7 @@
      
       {
         "name": "Preston",
-        "photo": "preston.jpg",
+        "photo": "https://jdhall22.github.io/images/preston-farm.jpg",
         "motto": "Home of Napoleon Dynamite.",
         "yearFounded": 1866,
         "currentPopulation": 5204,

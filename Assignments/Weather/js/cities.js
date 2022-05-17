@@ -1,4 +1,4 @@
-const requestURL = 'https://byui-cit230.github.io/weather/data/towndata.json';
+const requestURL = 'https://jdhall22.github.io/Assignments/Weather/Data/towndata.json';
 const cards = document.querySelector(".cards");
 
 fetch(requestURL)
