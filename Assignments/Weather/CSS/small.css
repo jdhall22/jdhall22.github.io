@@ -307,3 +307,23 @@ hr.solid {
     width: 100%;
   height: auto;
   }
+
+  /**Home page */
+
+.cards {
+    display: grid;
+    
+    gap: 5px;
+    margin: 2em;
+}
+section {
+    text-align: center;
+    background-color: white;
+   
+    }
+    
+
+
+
+
+

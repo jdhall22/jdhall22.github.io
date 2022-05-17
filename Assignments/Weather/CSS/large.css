@@ -140,4 +140,21 @@
     width: 100%;
   height: auto;
 }
+
+/**home page */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 2em;
+  text-align: center;
+  
 }
+
+
+
+
+}
+
+
