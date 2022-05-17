@@ -3,14 +3,13 @@
         <head>
             <meta charset="utf-8">
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Home | Justin Hall | BYU-Idaho</title>
+            <title>Fish Haven | Justin Hall | BYU-Idaho</title>
             <meta name="description" content="WDD230 Weather Site Plan">
             <link rel="stylesheet" href="CSS/normalize.css">
             <link rel="stylesheet" href="CSS/small.css">
             <link rel="stylesheet" href="CSS/medium.css">
             <link rel="stylesheet" href="CSS/large.css">
             <script defer src="js/dateTime.js"></script>
-            <script defer src="js/cities.js"></script>
         </head>
 
         <body>
@@ -47,15 +46,51 @@
                 <main>
                     
                     <div class="page-title">
-                        <h2>HOME</h2>
+                        <h2>Preston Idaho</h2>
                     </div>
 
                     
-                    
-					<div class="home-grid">
-					
-                        <div class="cards"></div>
-					
+                    <div class="preston-current-weather">
+                        
+                        <div class="preston-banner">
+                            <picture>
+                                <source srcset="https://jdhall22.github.io/images/Banner-MEDIUM.jpg" media="(min-width: 650px) and (max-width: 767px)">
+                                <source srcset="https://jdhall22.github.io/images/Banner-LARGE.jpg" media="(min-width: 768px)">
+                                <img src="https://jdhall22.github.io/images/Banner-SMALL.jpg" alt="Weather Banner"/>
+                            </picture>
+                        </div>
+
+                        <div class="preston-section-1">
+                            <h3>Weather Summary</h3>
+                            <hr class="solid">
+                            <p>Curently: 49°F<br>
+                                High: 57°F<br>
+                                Wind Chill: <span id='buildWC'></span><br>
+                                Humidity: 78%<br>
+                                Wind Speed: 8 MPH</p>
+                        
+                        </div>
+
+                    </div>
+
+                    <div class="preston-grid">
+                        <div class="preston-section-2">
+                            <h3>Five Day Forcast</h3>
+                            <a class="weatherwidget-io" href="https://forecast7.com/en/42d10n111d88/preston/?unit=us" data-font="Roboto" data-icons="Climacons Animated" data-mode="Forecast" data-days="5" data-theme="original" >Preston, ID, USA</a>
+                            <script>
+                                !function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0];if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
+                            </script> 
+                        </div>
+
+                        <div class="preston-section-3">
+                            <h3>Snowpack Levels in Idaho Increase</h3>
+                            <img src="https://jdhall22.github.io/images/preston-article.jpg" alt="snow in mountains of Idaho" height="300"/>
+                            <p>I was doing my morning reading and came across a great bit of news for our city!<br>
+                            It looks like the snowpack level in the mountians is going to be getting a "big boost". 
+                            Acording to Idaho News, our snowpack levels jumped from around 65 percent to "over 100 percent" in certain areas.
+                            I recommend reading the full article to get more information.<br><br></p>
+                            <a href="https://idahonews.com/weather/adventure-starts-with-weather/snowpack-levels-jumped-in-april" target="_blank">Read The Full Article</a>
+                            </div>
 
                     </div>
 
