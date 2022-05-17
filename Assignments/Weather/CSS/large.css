@@ -149,10 +149,13 @@
   gap: 5px;
   margin: 2em;
   text-align: center;
+
   
 }
 
-
+.cards img {
+  float: none;
+}
 
 
 }
