@@ -20,7 +20,7 @@ fetch(requestURL)
       let humid = document.createElement("p");
       let speed = document.createElement("p");
 
-      temp.textContent = `${weather.main.temp}`;
+      temp.textContent = `${weather.temp}`;
       high.textContent = `${weather.temp_max}`;
       wind.textContent = `${weather.feels_like}`;
       humid.textContent = `${weather.humidity}`;
