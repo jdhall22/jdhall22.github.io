@@ -1,5 +1,5 @@
 const eventsURL = 'https://jdhall22.github.io/Assignments/Weather/Data/towndata.json';
-const cards = document.querySelector(".events");
+var data = document.querySelector(".events");
 
 fetch(eventsURL)
   .then(function (response) {
@@ -13,22 +13,17 @@ fetch(eventsURL)
 
 function displayCities(towns) {
   
-  let card = document.createElement("section");
-  let event = document.createElement("p");
-  //let town = document.createElement("p");
-  event.textContent = `${towns[2, 6]}`;
-
-
-
-  //town.innerHTML = `<strong>Year Founded:</strong> ${towns.yearFounded}<br> <strong>Population:</strong> ${towns.currentPopulation}<br> <strong>Rain Fall:</strong> ${towns.averageRainfall}`;
-
+  if (towns.name == "Preston") {
+    let card = document.createElement("section");
+    let event = document.createElement("p");
+    //let town = document.createElement("p");
+    event.textContent = `${towns.events}`;
   
+    card.appendChild(event);
+    data.appendChild(card);
+  }
 
-  card.appendChild(event);
-  
-
-  cards.appendChild(card);
-
-
-
-}
+  else {
+    
+  }
+  }
