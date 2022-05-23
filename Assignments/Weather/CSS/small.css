@@ -219,6 +219,19 @@ main {
     max-width: 95%;
 }
 
+.preston-section-4 {
+    grid-column: 2 / 5; 
+    text-align: center;
+    
+}
+
+.events {
+    border: 2px solid black;
+    background-color: #CFE8EF;
+    align-items: center;
+    text-align: center;
+}
+
 /**
 *Contact Info Grid
 */
