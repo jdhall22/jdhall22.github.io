@@ -1,47 +1,58 @@
 {
-    "towns": [
+    "tours": [
       {
-        "name": "Soda Springs",
-        "photo": "https://jdhall22.github.io/images/soda-farm.jpg",
-        "motto": "Historic Oregon Trail Oasis. The Soda is on Us.",
-        "yearFounded": 1858,
-        "currentPopulation": 2985,
-        "averageRainfall": 15.75,
-        "events": [
-          "February 29: Geyser Song Day",
-          "May 1-6: Days of May Celebration",
-          "October 15-16: Octoberfest"
-        ]
+        "name": "Honda Metro Scooter",
+        "persons": 1,
+        "reservationHalfDay": 20,
+        "reservationFullDay": 30,
+        "walkHalfDay": 25,
+        "walkFullDay": 35,
       },
       
       {
-        "name": "Fish Haven",
-        "photo": "https://jdhall22.github.io/images/fish-farm.jpg",
-        "motto": "This is Fish Heaven.",
-        "yearFounded": 1864,
-        "currentPopulation": 501,
-        "averageRainfall": 14.20,
-        "events": [
-          "April 1: How Big Was That Fish Day",
-          "May 15-30: Rush the Creek Days",
-          "July 24: Bear Lake Blunder Run",
-          "December 12: Light the Tree"
-        ]
+        "name": "Honda Dio Scooter",
+        "persons": 2,
+        "reservationHalfDay": 30,
+        "reservationFullDay": 40,
+        "walkHalfDay": 35,
+        "walkFullDay": 45,
       },
      
      
       {
-        "name": "Preston",
-        "photo": "https://jdhall22.github.io/images/preston-farm.jpg",
-        "motto": "Home of Napoleon Dynamite.",
-        "yearFounded": 1866,
-        "currentPopulation": 5204,
-        "averageRainfall": 16.65,
-        "events": [
-          "March 29: Work Creek Revival",
-          "July 8-12: Napoleon Dynamite Festival",
-          "November 2-4: Freedom Days"
-        ]
-      }
+        "name": "Honda PCX150 Scooter",
+        "persons": 2,
+        "reservationHalfDay": 40,
+        "reservationFullDay": 50,
+        "walkHalfDay": 45,
+        "walkFullDay": 55,
+      },
+
+      {
+        "name": "Honda Pioneer ATV",
+        "persons": 4,
+        "reservationHalfDay": 50,
+        "reservationFullDay": 70,
+        "walkHalfDay": 60,
+        "walkFullDay": 80,
+      },
+
+      {
+        "name": "Jeep Wrangler—4 door with a/c",
+        "persons": 5,
+        "reservationHalfDay": 70,
+        "reservationFullDay": 100,
+        "walkHalfDay": 85,
+        "walkFullDay": 125,
+      },
+
+      {
+        "name": "Jeep Wrangler—2 door",
+        "persons": 4,
+        "reservationHalfDay": 60,
+        "reservationFullDay": 85,
+        "walkHalfDay": 70,
+        "walkFullDay": 90,
+      },
     ]
   }
