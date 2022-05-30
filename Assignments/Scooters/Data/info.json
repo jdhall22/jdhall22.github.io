@@ -2,11 +2,11 @@
     "tours": [
       {
         "name": "Honda Metro Scooter",
-        "persons": 1,
-        "reservationHalfDay": 20,
-        "reservationFullDay": 30,
-        "walkHalfDay": 25,
-        "walkFullDay": 35
+        "persons": "1",
+        "reservationHalfDay": "20",
+        "reservationFullDay": "30",
+        "walkHalfDay": "25",
+        "walkFullDay": "35"
       },
       
       {
