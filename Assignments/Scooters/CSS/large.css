@@ -1,0 +1,164 @@
+
+
+/**
+*Large Screen CSS
+*/
+
+@media only screen and (min-width: 768px) {
+
+    /**Navigation*/
+
+    .navigation {
+        display: flex;
+    }
+
+    .navigation li:first-child{
+        display: none;
+    }
+
+    .navigation li {
+        display: block;
+        flex: 1 1 100%;
+    }
+
+    /**Weather and Banner */
+
+
+    .preston-current-weather {
+        max-width: 1000px;
+    
+    }
+    
+    .preston-banner {
+        max-width: 1000px;
+        margin: 0 auto;
+        position: relative;
+    }
+    .preston-section-1 {
+        width: 40%;
+        max-width: 350px;
+        text-align: center;
+        background-color: rgba(160, 196, 226, 0.6);
+        border: 1px solid white;
+        position: absolute;
+        top: 460px;
+        margin-left: 40px;
+    }
+
+    .preston-section-2 {
+        margin-top: 50px;
+        display: block;
+        max-width: 75%;
+        margin-left: 12%;
+        text-align: center;
+    }
+
+    .preston-section-3 img{
+        float: right;
+    }
+
+    /**Contact Us box*/ 
+
+    .contact-info-grid {
+        display: grid;
+        margin: 10px auto;
+        border: 1px dashed black;
+        padding: 15px;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+    
+    .contact-section-1{
+        grid-column: 2 / 3;
+        grid-row: 1 / 4;
+    }
+    
+    .contact-section-2 {
+        display: flex;
+        grid-column: 2 / 3;
+        grid-row: 4 / 5;
+    }
+    
+    .contact-section-3 {
+        grid-column: 1 / 2;
+        grid-row: 1 / 5;
+    }
+	
+	/** Gallery grid */
+	
+	.gallery-grid {
+	  display: grid;
+	  grid-template-columns: 1fr 1fr 1fr;
+      
+  }
+  
+  .gallery-section-1 {
+	  grid-column: 1 / 2;
+	  grid-row: 1 / 2;
+      margin: 10px;
+      
+  }
+
+  .gallery-section-1 img {
+        display: block;  
+        width: 100%;
+      height: auto;
+  }
+
+  .gallery-section-1 text:hover {
+    box-shadow: 0 0 50px #333;
+  }
+  
+  .gallery-section-2 {
+	  grid-column: 2 / 3;
+	  grid-row: 1 / 2;
+      margin: 10px;
+  }
+
+  .gallery-section-2 text:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  .gallery-section-2 img {
+    display: block;  
+    width: 100%;
+  height: auto;
+}
+  
+  .gallery-section-3 {
+	  grid-column: 3 / 4;
+      grid-row: 1 / 2;
+	  margin: 10px;
+  }
+
+  .gallery-section-3 text:hover {
+    box-shadow: 0 0 50px #333;
+  }
+
+  .gallery-section-3 img {
+    display: block;  
+    width: 100%;
+  height: auto;
+}
+
+/**home page */
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  margin: 2em;
+  text-align: center;
+  
+
+  
+}
+
+.cards img {
+  float: none;
+}
+
+
+}
+
+
