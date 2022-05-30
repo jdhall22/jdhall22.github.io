@@ -6,7 +6,7 @@
         "reservationHalfDay": 20,
         "reservationFullDay": 30,
         "walkHalfDay": 25,
-        "walkFullDay": 35,
+        "walkFullDay": 35
       },
       
       {
@@ -15,7 +15,7 @@
         "reservationHalfDay": 30,
         "reservationFullDay": 40,
         "walkHalfDay": 35,
-        "walkFullDay": 45,
+        "walkFullDay": 45
       },
      
      
@@ -25,7 +25,7 @@
         "reservationHalfDay": 40,
         "reservationFullDay": 50,
         "walkHalfDay": 45,
-        "walkFullDay": 55,
+        "walkFullDay": 55
       },
 
       {
@@ -34,7 +34,7 @@
         "reservationHalfDay": 50,
         "reservationFullDay": 70,
         "walkHalfDay": 60,
-        "walkFullDay": 80,
+        "walkFullDay": 80
       },
 
       {
@@ -43,7 +43,7 @@
         "reservationHalfDay": 70,
         "reservationFullDay": 100,
         "walkHalfDay": 85,
-        "walkFullDay": 125,
+        "walkFullDay": 125
       },
 
       {
@@ -52,7 +52,7 @@
         "reservationHalfDay": 60,
         "reservationFullDay": 85,
         "walkHalfDay": 70,
-        "walkFullDay": 90,
-      },
+        "walkFullDay": 90
+      }
     ]
   }
