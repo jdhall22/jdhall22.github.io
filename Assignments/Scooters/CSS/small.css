@@ -25,6 +25,9 @@ header {
     background-color: #D9C5AD;
     text-align: left;
     color: black;
+    max-width: 1000px;
+    align-content: center;
+    margin: auto;
     
   }
 
@@ -50,6 +53,9 @@ header img {
 
 nav {
     background-color: #D9C5AD;
+    max-width: 1000px;
+    align-content: center;
+    margin: auto;
     
 }    
 
@@ -66,7 +72,7 @@ nav a{
 }
 
 nav a:hover {
-  background-color: #734B02;
+  background-color: #42858C;
   color: black;
 }
 
@@ -260,6 +266,12 @@ section {
     text-align: center;
     background-color: #CFE8EF;
    
+    }
+
+    .call {
+        max-width: 1000px;
+        align-content: center;
+        margin: auto;  
     }
     
 
