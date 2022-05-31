@@ -183,6 +183,17 @@ display: grid;
     margin-left: 40px;
 }
 
+.information {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 5px;
+    margin: 2em;
+    text-align: center;
+    
+  
+    
+  }
+
 }
 
 

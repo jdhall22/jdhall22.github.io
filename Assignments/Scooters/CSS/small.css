@@ -264,6 +264,18 @@ footer {
         margin: auto;  
     }
 
+    .information {
+        display: grid;
+        
+        gap: 5px;
+        margin: 2em;
+    }
+    section {
+        text-align: center;
+        background-color: #ACC4D0;
+       
+        }
+
  
 
 

@@ -14,7 +14,7 @@ fetch(requestURL)
 function displayInfo(tours) {
   
     let card = document.createElement("section");
-    let name = document.createElement("h3");
+    let name = document.createElement("h4");
     let persons = document.createElement("p");
     let reservationHalfDay = document.createElement("p");
     let reservationFullDay = document.createElement("p");
