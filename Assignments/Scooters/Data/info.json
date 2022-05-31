@@ -11,48 +11,48 @@
       
       {
         "name": "Honda Dio Scooter",
-        "persons": 2,
-        "reservationHalfDay": 30,
-        "reservationFullDay": 40,
-        "walkHalfDay": 35,
-        "walkFullDay": 45
+        "persons": "Persons: 2",
+        "reservationHalfDay": "Reservation, Half Day: $30",
+        "reservationFullDay": "Reservation, Full Day $40",
+        "walkHalfDay": "Walk-in, Half Day: $35",
+        "walkFullDay": "Walk-in, Full Day: $45"
       },
      
      
       {
         "name": "Honda PCX150 Scooter",
-        "persons": 2,
-        "reservationHalfDay": 40,
-        "reservationFullDay": 50,
-        "walkHalfDay": 45,
-        "walkFullDay": 55
+        "persons": "Persons: 2",
+        "reservationHalfDay": "Reservation, Half Day: $40",
+        "reservationFullDay": "Reservation, Full Day $50",
+        "walkHalfDay": "Walk-in, Half Day: $45",
+        "walkFullDay": "Walk-in, Full Day: $55"
       },
 
       {
         "name": "Honda Pioneer ATV",
-        "persons": 4,
-        "reservationHalfDay": 50,
-        "reservationFullDay": 70,
-        "walkHalfDay": 60,
-        "walkFullDay": 80
+        "persons": "Persons: 4",
+        "reservationHalfDay": "Reservation, Half Day: $50",
+        "reservationFullDay": "Reservation, Full Day $70",
+        "walkHalfDay": "Walk-in, Half Day: $60",
+        "walkFullDay": "Walk-in, Full Day: $80"
       },
 
       {
         "name": "Jeep Wrangler—4 door with a/c",
-        "persons": 5,
-        "reservationHalfDay": 70,
-        "reservationFullDay": 100,
-        "walkHalfDay": 85,
-        "walkFullDay": 125
+        "persons": "Persons: 5",
+        "reservationHalfDay": "Reservation, Half Day: $70",
+        "reservationFullDay": "Reservation, Full Day $100",
+        "walkHalfDay": "Walk-in, Half Day: $85",
+        "walkFullDay": "Walk-in, Full Day: $125"
       },
 
       {
         "name": "Jeep Wrangler—2 door",
-        "persons": 4,
-        "reservationHalfDay": 60,
-        "reservationFullDay": 85,
-        "walkHalfDay": 70,
-        "walkFullDay": 90
+        "persons": "Persons: 4",
+        "reservationHalfDay": "Reservation, Half Day: $60",
+        "reservationFullDay": "Reservation, Full Day $85",
+        "walkHalfDay": "Walk-in, Half Day: $70",
+        "walkFullDay": "Walk-in, Full Day: $90"
       }
     ]
   }
