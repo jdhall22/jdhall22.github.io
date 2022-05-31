@@ -121,6 +121,23 @@ display: grid;
     border-top: solid black 2px;
 }
 
+
+/**Reservations Page*/
+.reservations-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.reservations-section-1 {
+    grid-column: 1 / 2;
+    text-align: left;
+}
+
+.reservations-section-2 {
+    grid-column: 2 / 3;
+    margin-left: 40px;
+}
+
 .tour-grid {
   display: inline;
 }
