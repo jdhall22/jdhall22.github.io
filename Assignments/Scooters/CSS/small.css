@@ -256,24 +256,15 @@ footer {
 
   /**Home page */
 
-.cards {
-    display: grid;
-    
-    gap: 5px;
-    margin: 2em;
-}
-section {
-    text-align: center;
-    background-color: #CFE8EF;
-   
-    }
+
 
     .call {
         max-width: 1000px;
         align-content: center;
         margin: auto;  
     }
-    
+
+ 
 
 
 

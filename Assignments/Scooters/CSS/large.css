@@ -88,8 +88,9 @@
 
 /**home page */
 
-.home-grid{
+.home-grid {
   grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
 }
 
 .home-section-1 {
