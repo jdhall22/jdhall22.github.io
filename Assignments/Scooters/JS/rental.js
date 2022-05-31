@@ -1,7 +1,7 @@
 const requestURL = 'https://jdhall22.github.io/Assignments/Scooters/Data/info.json';
 var data = document.querySelector(".information");
 
-fetch(eventsURL)
+fetch(requestURL)
   .then(function (response) {
     return response.json();
   })
