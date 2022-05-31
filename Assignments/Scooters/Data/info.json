@@ -3,10 +3,10 @@
       {
         "name": "Honda Metro Scooter",
         "persons": "Persons: 1",
-        "reservationHalfDay": "20",
-        "reservationFullDay": "30",
-        "walkHalfDay": "25",
-        "walkFullDay": "35"
+        "reservationHalfDay": "Reservation, Half Day: $20",
+        "reservationFullDay": "Reservation, Full Day $30",
+        "walkHalfDay": "Walk-in, Half Day: $25",
+        "walkFullDay": "Walk-in, Full Day: $35"
       },
       
       {
