@@ -111,6 +111,14 @@
   align-content: center;
 }
 
+.tour-grid {
+  display: inline;
+}
+.tour-grid img {
+ 
+  float: right;
+}
+
 }
 
 
